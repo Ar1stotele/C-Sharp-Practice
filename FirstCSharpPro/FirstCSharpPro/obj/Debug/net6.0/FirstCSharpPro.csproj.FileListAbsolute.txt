@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\bin\Debug\net6.0\FirstCSharpPro.exe
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\bin\Debug\net6.0\FirstCSharpPro.deps.json
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\bin\Debug\net6.0\FirstCSharpPro.runtimeconfig.json
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\bin\Debug\net6.0\FirstCSharpPro.dll
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\bin\Debug\net6.0\FirstCSharpPro.pdb
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.AssemblyInfo.cs
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.dll
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\refint\FirstCSharpPro.dll
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.pdb
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\FirstCSharpPro.genruntimeconfig.cache
+C:\Users\user\Desktop\Stuff\C#\FirstCSharpPro\FirstCSharpPro\obj\Debug\net6.0\ref\FirstCSharpPro.dll
