@@ -2,6 +2,18 @@
 {
     class program
     {
+        public static int CheckIfUserIsRegistered(string username, string password, List<User> users)
+        {
+            if (users.Count < 1) return -1;
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i].UserName == username && users[i].Password == password)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
         static void Main(string[] args)
         {
             // random numbers generator
@@ -23,18 +35,7 @@
             List<User> users = new List<User>();
 
 
-            int CheckIfUserIsRegistered(string username, string password)
-            {
-                if(users.Count < 1) return -1;
-                for (int i = 0; i < users.Count; i++)
-                {
-                    if (users[i].UserName == username && users[i].Password == password)
-                    {
-                        return i;
-                    }
-                }
-                return -1;
-            }
+            
 
             while(userChoice != "3")
             {
@@ -48,7 +49,8 @@
                     var username = Console.ReadLine();
                     Console.WriteLine("Enter your password");
                     var password = Console.ReadLine();
-                    var userIndex = CheckIfUserIsRegistered(username, password);
+
+                    var userIndex = CheckIfUserIsRegistered(username, password, users);
                     if (userIndex == -1)
                     {
                         Console.WriteLine("You have to be registered");
