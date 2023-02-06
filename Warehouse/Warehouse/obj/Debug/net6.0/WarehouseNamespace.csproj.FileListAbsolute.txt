@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\bin\Debug\net6.0\WarehouseNamespace.exe
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\bin\Debug\net6.0\WarehouseNamespace.deps.json
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\bin\Debug\net6.0\WarehouseNamespace.runtimeconfig.json
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\bin\Debug\net6.0\WarehouseNamespace.dll
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\bin\Debug\net6.0\WarehouseNamespace.pdb
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.AssemblyInfo.cs
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.dll
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\refint\WarehouseNamespace.dll
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.pdb
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\WarehouseNamespace.genruntimeconfig.cache
+C:\Users\user\Desktop\Stuff\C#\Warehouse\Warehouse\obj\Debug\net6.0\ref\WarehouseNamespace.dll
