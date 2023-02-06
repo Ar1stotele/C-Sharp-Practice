@@ -8,29 +8,33 @@ using System.Security.Cryptography;
 
 namespace Extensions
 {
-    public class CustomExstension
+    public static class CustomExstension
     {
-        public char[] Numbers = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
-        public bool IsNumber(string str)
+        public static bool IsNumber(this string str)
         {
-            var dots = 0;
+        var numbers = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
+        var dots = 0;
 
             foreach(var character in str)
             {
                 if(character == '.') dots++;
-                if (Numbers.Contains(character)) continue;
+                if (numbers.Contains(character)) continue;
                 else return false;
             }
             return true;
         }
 
-        //public bool IsDate(string str) { }
-        
-        public string[] ToWords(string str) {
+        public static bool IsDate(this string str) {
+            var value = new DateTime();
+            var isDateTime = DateTime.TryParse(str, out value);
+            return isDateTime;
+        }
+
+        public static string[] ToWords(this string str) {
             return str.Split(' ');
         }
 
-        public string CalculateHash(string str)
+        public static string CalculateHash(this string str)
         {
             // Create a SHA256   
             using (SHA256 sha256Hash = SHA256.Create())
@@ -48,7 +52,7 @@ namespace Extensions
             }
         }
 
-        public void SaveToFile(string filePath, string fileText)
+        public static void SaveToFile(this string filePath, string fileText)
         {
             filePath = filePath.Replace(@"/", @"\");
             if (File.Exists(filePath))
@@ -65,65 +69,53 @@ namespace Extensions
             }
         }
 
-        public double ToPercent(double num)
+        public static double ToPercent(this double num)
         {
             if (num < 0 || num > 1) throw new Exception("number should be in [0, 1] interval");
 
             return num * 100;
-
         }
 
         
-        /*
-         * It would more convenient if I would use Round function just tried to invent a wheel again..
-         */
-        public int RoundDown(double num)
+        public static int RoundDown(this double num)
         {
-            double division = Convert.ToInt32(num) / num;
-            int roundedDown = Convert.ToInt32(num);
-            if (division > 1) roundedDown--;
-            return roundedDown;
+            return (int)num;
         }
 
-        public decimal ToDecimal(double num)
+        public static decimal ToDecimal(this double num)
         {
             return Convert.ToDecimal(num);
         }
 
 
-        public bool IsGreater(double number, double numberTwo)
+        public static bool IsGreater(this double number, double numberTwo)
         {
-            if (number > numberTwo) return true;
-            return false;
+            return number > numberTwo;
         }
 
-        public bool IsLess(double number, double numberTwo)
+        public static bool IsLess(this double number, double numberTwo)
         {
-            if (number < numberTwo) return true;
-            return false;
+            return number < numberTwo;
         }
 
-        public DateTime Min(DateTime dateOne, DateTime dateTwo)
+        public static DateTime Min(this DateTime dateOne, DateTime dateTwo)
         {
             return Min(dateOne, dateTwo);
         }
 
-        public DateTime Max(DateTime dateOne, DateTime dateTwo)
+        public static DateTime Max(this DateTime dateOne, DateTime dateTwo)
         {
             return Max(dateOne, dateTwo);
         }
 
-        public DateTime BeginingOfMonth(DateTime date)
+        public static DateTime BeginingOfMonth(this DateTime date)
         {
-            var newDate = new DateTime(date.Year, date.Month, 1);
-            Console.WriteLine();
-            return newDate;
+            return new DateTime(date.Year, date.Month, 1);
         }
 
-        public DateTime EndOfMonth(DateTime date)
+        public static DateTime EndOfMonth(this DateTime date)
         {
-            DateTime endOfMonth = new DateTime(date.Year, date.Month, DateTime.DaysInMonth(date.Year, date.Month)); 
-            return endOfMonth;
+            return new DateTime(date.Year, date.Month, DateTime.DaysInMonth(date.Year, date.Month));
         }
 
     }
